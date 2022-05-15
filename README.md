@@ -21,7 +21,7 @@ var event = new InputEvent("input", { bubbles: true });
 var textbox = document.getElementsByClassName("_13NKt copyable-text selectable-text")[1];
 for (let index = 0; index < counter; index++) {
   textbox.innerHTML = message;
-  textbox.dispatchEvent(event);
-  document.getElementsByClassName("_4sWnG")[0].click();
+  textbox.dispatchEvent(event);setTimeout(myFunction, 60000);
+  document.getElementsByClassName("tvf2evcx oq44ahr5 lb5m6g5c svlsagor p2rjqpw5 epia9gcq")[0].click();
 }
 ```
