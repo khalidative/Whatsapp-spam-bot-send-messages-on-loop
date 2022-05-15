@@ -20,6 +20,12 @@ window.InputEvent = window.Event || window.InputEvent;
 var event = new InputEvent("input", { bubbles: true });
 var textbox = document.getElementsByClassName("_13NKt copyable-text selectable-text")[1];
 for (let index = 0; index < counter; index++) {
+  if(index = 0){
+  index++
+  }
+  message_edit = parseInt(index, 10)
+  message += ' ';
+  message += message_edit;
   textbox.innerHTML = message;
   textbox.dispatchEvent(event);setTimeout(myFunction, 60000);
   document.getElementsByClassName("tvf2evcx oq44ahr5 lb5m6g5c svlsagor p2rjqpw5 epia9gcq")[0].click();
