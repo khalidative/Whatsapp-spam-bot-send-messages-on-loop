@@ -27,7 +27,10 @@ for (let index = 0; index < counter; index++) {
   message += ' ';
   message += message_edit;
   textbox.innerHTML = message;
-  textbox.dispatchEvent(event);setTimeout(myFunction, 60000);
+  textbox.dispatchEvent(event);
+  setTimeout(myFunction, 10000);
+}
+function click_enter() {
   document.getElementsByClassName("tvf2evcx oq44ahr5 lb5m6g5c svlsagor p2rjqpw5 epia9gcq")[0].click();
 }
 ```
