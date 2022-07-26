@@ -15,6 +15,9 @@
 
 ```javascript
 -------------------------------------------------------------------------------------------------------
+d
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
 var message = prompt("Enter your message", "‎");
 var counter = parseInt(prompt("How many Times ?", 10));
 window.InputEvent = window.Event || window.InputEvent;
@@ -84,4 +87,44 @@ async function demon() {
 demon();
 
 -------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Demon Girl Version 2.0
+-------------------------------------------------------------------------------------------------------
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function demon() {
+  var message = prompt("Enter your message", "‎");
+  var counter = parseInt(prompt("How many Times ?", 10));
+  window.InputEvent = window.Event || window.InputEvent;
+  var event = new InputEvent("input", { bubbles: true });
+  var textbox = document.getElementsByClassName("_13NKt copyable-text selectable-text")[1];
+  for (let index = 0; index < counter; index++) {
+    if(index == 0){
+    index++
+    }
+    switch(expression) {
+      case x:
+        // code block
+        break;
+      case y:
+        // code block
+        break;
+      default:
+        // code block
+    }
+    textbox.innerHTML = print_message;
+    await sleep(10 * 1000);
+    textbox.dispatchEvent(event);
+    document.getElementsByClassName("tvf2evcx oq44ahr5 lb5m6g5c svlsagor p2rjqpw5 epia9gcq")[0].click();
+}
+}
+
+demon();
+
+-------------------------------------------------------------------------------------------------------
+
+
 ```
